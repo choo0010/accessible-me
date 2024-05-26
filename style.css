@@ -1,0 +1,139 @@
+body {
+  font-family: 'Aptos (Body)';
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:focus {
+  outline: 2px solid #000;
+}
+
+/* Skip Links */
+.skip-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: black;
+  color: white;
+  padding: .5em 1em;
+  font-weight: bold;
+  z-index: 100;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+/* Header Styles */
+.site-header {
+  background-color: #333;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-family: 'Aptos Display (Headings)';
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0 1em;
+}
+
+.main-nav a {
+  color: white;
+  font-weight: 500;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  text-align: left;
+  font-weight: normal;
+}
+
+/* Main Content Styles */
+.main-content {
+  padding: 2em;
+  background-color: white;
+}
+
+.main-content h2 {
+  font-family: 'Aptos Display (Headings)';
+  margin-top: 0;
+}
+.owner h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: .5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+form button {
+  padding: 1em;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.site-footer p {
+  margin: 0;
+}
